@@ -7,4 +7,3 @@ if( userPrompt == "Yes".toLowerCase()) {
 } else {
     prompt("Hey. Yes or no answers only...");
 }
-
