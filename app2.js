@@ -1,4 +1,3 @@
-
 function howManyAlbums() {
     let depecheModeAlbums = prompt("How Many albums does Depeche Mode have?")
     if(depecheModeAlbums > 21 || depecheModeAlbums < 0) {
