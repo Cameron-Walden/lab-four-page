@@ -2,7 +2,7 @@ function myUserPrompt() {
     let userPrompt = prompt("Do you like Depeche Mode? Yes or No.")
 
     if( userPrompt == "Yes" || userPrompt == "yes") {
-    alert("Nice me too. One more question for you.");
+    alert("Nice me too. Another Question for you...");
     } else if(userPrompt == "No" || userPrompt == "no") {
     alert("Why are you visiting this site then?");
     } else {
@@ -19,9 +19,14 @@ function howManyAlbums() {
         alert("There ya go...Come on in.");
     }
 }
-howManyAlbums();
+howManyAlbums()
 
-function myThirdAlert() {
-    let thirdAlert = alert("We're done with the questions now. Have a look around!")
+
+function picsOnPage() {
+    let numPics = prompt("Oh shoot. Sorry to do this- last question I swear. How many pictures of the exact same cheerful Depeche Mode would you like to see?")
+    for(let i = 0; i < numPics; i++) {
+        document.write('<img src ="http://www.tiptopwebsite.com/photos3/depechemodefile/fluffy.jpg">')
+        alert("That's all she wrote. Come on in. Sorry for all the prompts!")
+    }
 }
-myThirdAlert();
+picsOnPage();
