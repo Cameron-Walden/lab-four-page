@@ -1,7 +1,7 @@
 let userName = prompt("What's your name?")
 
 if(userName == "Cameron") {
-    prompt("Hello " + userName + "! How are you today?" );
+    alert("Hello " + userName + "! How are you today? Come on in." );
 } else {
-    prompt("Hello, welcome to my site");
+    alert("Hello " + userName + ". Welcome to my site.");
 }
