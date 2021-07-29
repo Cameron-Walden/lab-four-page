@@ -1,9 +1,12 @@
-function myUserName() {
-    let userName = prompt("What's your name?")
-    if(userName == "Cameron") {
-        alert("Hello " + userName + "! How are you today? Come on in." );
+function myUserPrompt() {
+    let userPrompt = prompt("Do you like Depeche Mode? Yes or No.")
+
+    if( userPrompt == "Yes".toLowerCase()) {
+    alert("Nice me too. One more question for you.");
+    } else if(userPrompt == "No".toLowerCase()) {
+    alert("Why are you visiting this site then?");
     } else {
-        alert("Hello " + userName + ". Welcome to my site.");
+    alert("Hey. Yes or no answers only...");
     }
 }
-myUserName();
+myUserPrompt();

@@ -1,12 +1,10 @@
-function myUserPrompt() {
-    let userPrompt = prompt("Do you like Depeche Mode? Yes or No.")
 
-    if( userPrompt == "Yes".toLowerCase()) {
-    alert("Nice me too. check out this site.");
-    } else if(userPrompt == "No".toLowerCase()) {
-    alert("Why are you visiting this site then?");
+function howManyAlbums() {
+    let depecheModeAlbums = prompt("How Many albums does Depeche Mode have")
+    if(depecheModeAlbums > 30 || depecheModeAlbums < 0) {
+        alert("Hmm...A quick google search should help you out.");
     } else {
-    alert("Hey. Yes or no answers only...");
+        alert("There ya go...Come on in.");
     }
 }
-myUserPrompt();
+howManyAlbums();
