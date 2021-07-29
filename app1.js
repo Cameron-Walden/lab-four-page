@@ -23,10 +23,10 @@ howManyAlbums()
 
 
 function picsOnPage() {
-    let numPics = prompt("Oh shoot. Sorry to do this- last question I swear. How many pictures of the exact same cheerful Depeche Mode would you like to see?")
+    let numPics = prompt("Oh actually wait. Sorry to do this to you- last question I swear. How many pictures of the exact same cheerful Depeche Mode would you like to see?")
     for(let i = 0; i < numPics; i++) {
         document.write('<img src ="http://www.tiptopwebsite.com/photos3/depechemodefile/fluffy.jpg">')
-        alert("That's all she wrote. Come on in. Sorry for all the prompts!")
+        alert("Alright! That's all she wrote. Come on in. Sorry for all the prompts!")
     }
 }
 picsOnPage();
