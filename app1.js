@@ -13,14 +13,13 @@ myUserPrompt();
 
 function howManyAlbums() {
     let depecheModeAlbums = prompt("How Many albums does Depeche Mode have?")
-    if(depecheModeAlbums < 0 || depecheModeAlbums > 21) {
+    if(depecheModeAlbums < 1 || depecheModeAlbums > 21) {
         alert("Hmm...A quick google search should help you out.");
     } else {
         alert("There ya go...Come on in.");
     }
 }
-howManyAlbums()
-
+howManyAlbums();
 
 function picsOnPage() {
     let numPics = prompt("Oh actually wait. Sorry to do this to you- last question I swear. How many pictures of the exact same cheerful Depeche Mode would you like to see?")
