@@ -1,12 +1,15 @@
-function myUserPrompt() {
-    let userPrompt = prompt("Do you like Depeche Mode? Yes or No.")
-
-    if( userPrompt == "Yes" || userPrompt == "yes") {
-    alert("Nice me too. Another Question for you...");
-    } else if(userPrompt == "No" || userPrompt == "no") {
-    alert("Why are you visiting this site then?");
-    } else {
-    alert("Hey. Yes or no answers only...");
+function myUserPrompt(){
+    const timesAsked = 3
+    for(let i = 0; i <= timesAsked; i++) {
+        let userPrompt = prompt("Do you like Depeche Mode? Yes or no?")
+        if(userPrompt == "Yes" || userPrompt == "yes") {
+            alert("Nice! Me too. Check out the site.")
+            break;
+        } else if(userPrompt == "No"|| userPrompt == "no"){
+            alert("Why are you visiting this site then?")
+        } else {
+            alert("You should probably just make it easy on us both and say yes.")
+        }
     }
 }
 myUserPrompt();
@@ -29,3 +32,4 @@ function picsOnPage() {
     }
 }
 picsOnPage();
+
